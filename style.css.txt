@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #1e90ff, #87cefa);
+  color: white;
+}
+
+.topo {
+  text-align: center;
+  padding: 40px 20px;
+  background: #004aad;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.card {
+  background: #0b1f5e;
+  border: 3px solid yellow;
+  border-radius: 20px;
+  width: 260px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+button {
+  background: yellow;
+  color: #0b1f5e;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
